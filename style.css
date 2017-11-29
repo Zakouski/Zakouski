@@ -1,0 +1,404 @@
+/* FICHIER DE STYLE CSS */
+
+/*--------------------------------------------------*/
+/* ELEMENTS POUR TOUTES LES PAGES */
+
+body {
+	margin :0;
+	background-image : url(media/fonds/background_1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 110%;
+	background-color : rgb(47, 66, 66);
+	font-family : 'Raleway', sans-serif;
+	width : 100%;
+}
+
+a:visited, a:link, a:active {
+    text-decoration: none;
+	color : rgb(72, 114, 114);
+}
+
+ul {
+	list-style-type: none;
+	padding: 0%;
+}
+
+h2 {
+	font-size: 500%;
+	color : rgb(32, 48, 48);
+	display: block;
+	text-align: center;
+	background: rgb(79, 122, 122);
+	padding : 1%;
+	width : 90%;
+	margin : auto;
+	margin-top : 5%;
+	
+}
+
+h3 {
+	color : rgb(87, 142, 142);
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+p {
+	font-size: 100%;
+	color : rgb(78, 122, 122);
+	display: block;
+	text-align: center;
+}
+
+.legal {
+	display: block;
+	color : rgb(62, 102, 102);
+	font-weight : bolder;
+}
+
+/*--------------------------------------------------*/
+/* PAGE D'ACCUEIL  : TITRAGE */
+
+h1 {
+	display: block;
+	text-align: center;
+	margin: auto;
+	
+}
+
+.titrage1 {
+	margin-top: 10%;
+	font-size: 900%;
+	color : rgb(62, 102, 102);
+	text-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+.titrage2{
+	margin : auto;
+	font-size: 600%;
+	color : rgb(87, 142, 142);
+	text-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+/*--------------------------------------------------*/
+/* PAGE D'ACCUEIL  : EN SAVOIR PLUS */
+
+.more {
+	display: block;
+	background: rgb(39, 61, 61);
+	text-align: center;
+	font-size: 200%;
+	margin : auto;
+	margin-top: 3%;
+	padding : 1%;
+	width : 20%;
+	transition : 0.5s;
+	
+}
+
+.more:hover {
+	background : rgb(26, 40, 40);
+	transition : 0.5s;
+}
+
+/*--------------------------------------------------*/
+/* PAGE D'ACCUEIL  : ENCADREMENT DU CONTENU */
+
+.cadre_accueil {
+	display : block;
+	background : rgb(32, 48, 48);
+	width : 90%;
+	height: 50px;
+	margin : auto;
+	margin-top : 25%;
+	/*margin-bottom: -500%;*/
+	margin-bottom: -200px;
+	border-bottom: 300px solid rgb(32, 48, 48);
+	/*margin-bottom: -250px;
+	border-bottom: 250px solid rgb(32, 48, 48);*/
+}
+
+/*--------------------------------------------------*/
+/* PAGE D'ACCUEIL  : NAVIGATION */
+
+nav {
+	
+}
+
+.premier_bouton_menu {
+	
+}
+
+.bouton_menu1 {
+	display: inline-block;
+	text-align: center;
+	margin-top : 30%;
+	margin-right: -4px;
+	padding: 0px;
+	width : 25%;
+	height : 15%;
+	border-top: 50px solid rgb(32, 48, 48);
+	border-bottom: 50px solid rgb(32, 48, 48);
+	font-size: 150%;
+	line-height: 2.5;
+	background-color: rgb(32, 48, 48);
+	/* display: inline-block;
+	background : rgb(49, 79, 79);
+	margin-right: 5%;
+	margin-left : -5%;
+	padding: 0%;
+	border : 0%;
+	text-align: center;
+	width : 22.5%;
+	height : 150%; */
+	transition: 0.5s;
+}
+
+.bouton_menu1:hover {
+	background-color: rgb(49, 79, 79);
+	transition: 0.5s;
+	border-top: 50px solid rgb(49, 79, 79);
+	border-bottom: 50px solid rgb(49, 79, 79);
+}
+
+/*--------------------------------------------------*/
+/* PAGE D'ACCUEIL  : ME SUIVRE */
+
+.follow_title {
+	display: block;
+	text-align: center;
+	font-size: 200%;
+	font-weight: 1000;
+	/*text-shadow: 2px 2px 1px rgb(14, 22, 22);*/
+	color : rgb(32, 48, 48); /* ou bien : rgb(32, 48, 48)*/
+	margin-top: 10%;
+	margin-left: 35%;
+	margin-right: 35%;
+	border-bottom : 5px solid rgb(32, 48, 48);
+}
+
+.follow_menu {
+	display :block;
+	margin-left : 46%;
+	margin-right : 46%;
+	margin-top : -2%;
+	/*margin-left: 43.5%;
+	margin-right: 38%;*/
+	
+}
+
+.follow_bouton {
+	display: inline-block;
+	text-shadow: 1px 1px 1px rgb(14, 22, 22);
+	text-align: center;
+	font-size: 400%;
+	font-weight: bolder;
+	/*margin-top: -25px;
+	margin-right: 15px;*/
+	transition: 0.5s;
+	
+}
+
+.fa-vimeo-square {
+	color : rgb(32, 48, 48);
+}
+
+.fa-vimeo-square:hover {
+	color : rgb(72, 114, 114);
+	transition: 0.5s;
+}
+
+
+.fa-youtube-square {
+	color : rgb(32, 48, 48);
+}
+
+.fa-youtube-square:hover {
+	color : rgb(72, 114, 114);
+	transition: 0.5s;
+}
+
+/*--------------------------------------------------*/
+/* BOUTON DE RETOUR */
+
+.retour {
+	display: block;
+	background: rgb(35, 56, 56);
+	padding : 1%;
+	width : 90%;
+	/*text-align: center;*/
+	margin : auto;
+	transition : 0.5s;
+}
+
+.retour:hover {
+	background : rgb(24, 38, 38);
+	transition : 0.5s;
+}
+
+/*--------------------------------------------------*/
+/* ICONES */
+
+
+/*--------------------------------------------------*/
+/* GALERIE PHOTO : IMAGES */
+
+.photo_galerie {
+	filter: blur(10px);
+	margin : auto;
+	transition : 0.5s;
+	display: block;
+	width : 90%;
+	height: auto;
+}
+
+.photo_galerie:hover {
+	filter: blur(0px);
+	transition : 0.5s;
+}
+
+/*--------------------------------------------------*/
+/* GALERIE PHOTO : ENCADREMENT DU CONTENU */
+
+.cadre_galerie {
+	display : block;
+	background : rgb(32, 48, 48);
+	width : 90%;
+	height: 50px;
+	margin : auto;
+	margin-bottom: -4470px;
+	border-bottom: 4470px solid rgb(32, 48, 48);
+}
+
+/*--------------------------------------------------*/
+/* ENCADREMENT DU CONTENU - GENERAL*/
+
+.cadre {
+	display : block;
+	background : rgb(32, 48, 48);
+	width : 90%;
+	height: 50px;
+	margin : auto;
+	margin-bottom: -3000px;
+	border-bottom: 3000px solid rgb(32, 48, 48);
+}
+
+/*--------------------------------------------------*/
+/* PREVIEWS FILMS */
+
+.film {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	width : 75%;
+	height : 720px;
+	margin : auto;
+	text-align: center;
+	font-size: 200%;
+	text-shadow: 1px 1px 1px rgb(14, 22, 22);
+	font-weight: bold;
+	padding-left: 5%;
+	padding-right: 5%;
+	/* pour firefox : (à implanter) -UPDATE : pris en charge par les dernières versions de firefox
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;*/
+	display:-webkit-box; /*Fonctionne avec chrome, safari et opera seulement.*/
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+}
+
+.film1 {
+	background-image: url("media/preview films/UADLV_preview.JPG");
+	transition : 0.5s;
+}
+
+.film1:hover {
+	background-image: url("media/preview films/UADLV_preview_blur.jpg");
+	background-size: 110%;
+	transition : 0.5s;
+}
+
+.film2 {
+	background-image: url("media/preview films/KUNDERA_preview.jpg");
+	transition : 0.5s;
+}
+
+.film2:hover {
+	background-image: url("media/preview films/KUNDERA_preview_blur.jpg");
+	background-size: 110%;
+	transition : 0.5s;
+}
+
+.film3 {
+	background-image: url("media/preview films/COMPOTE_preview.jpg");
+	transition : 0.5s;
+}
+
+.film3:hover {
+	background-image: url("media/preview films/COMPOTE_preview_blur.jpg");
+	background-size: 110%;
+	transition : 0.5s;
+}
+
+.film4 {
+	background-image: url("media/preview films/7VIES_preview.jpg");
+	transition : 0.5s;
+}
+
+.film4:hover {
+	background-image: url("media/preview films/7VIES_preview_blur.jpg");
+	background-size: 110%;
+	transition : 0.5s;
+}
+
+/*--------------------------------------------------*/
+/* MATERIEL ET WORKFLOW : LISTE DE MATERIEL */
+
+.material_list {
+	color : rgb(78, 122, 122);
+	display: inline-block;
+	text-align: center;
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 4%;
+	width : 15%;
+	height : 50%;
+	margin-left: 8%;
+	font-size: 110%
+	
+}
+
+/*--------------------------------------------------*/
+/* MATERIEL ET WORKFLOW : ENCADREMENT DU CONTENU */
+
+.cadre_material {
+	display : block;
+	background : rgb(32, 48, 48);
+	width : 90%;
+	height: 50px;
+	margin : auto;
+	margin-bottom: -550px;
+	border-bottom: 550px solid rgb(32, 48, 48);
+}
+
+/*--------------------------------------------------*/
+/* MATERIEL ET WORKFLOW : LEGAL */
+
+.legal_material {
+	display: block;
+	margin-top: 7%;
+	color : rgb(79, 122, 122);
+	font-weight : 200
+}
+
+/*--------------------------------------------------*/
+/* MATERIEL ET WORKFLOW : ICONES */
+
+.ico_material {
+	color : rgb(79, 122, 122);
+}
